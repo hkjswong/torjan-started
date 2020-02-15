@@ -8,12 +8,15 @@
 * 換用chacha20的加密
 * 換用tls+ticket_auth的混淆
 * 逗比腳本先安裝libsodium
-> wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+
+![image](https://github.com/hkjswong/torjan-started/blob/master/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202020-02-14%2020.32.50.png)
+> 腳本： wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
 
 ### 搭建torjan的準備工作
 * 域名,需要先解析
 * 客戶端使用
 > ios使用小火箭
+> 瀏覽器可用switchomega
 
 > mac需要下載：torjan gfw：https://github.com/trojan-gfw/trojan/releases
 
