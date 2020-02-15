@@ -1,6 +1,16 @@
 # centos 7 / ubuntu搭建torjan，公眾號：swa_yo
 
-### 準備工作
+### 2020新防火牆
+* 斷流（可能超過M就斷流）
+* ssr同v2ray網路速度慢
+
+### 斷流解決措施
+* 換用chacha20的加密
+* 換用tls+ticket_auth的混淆
+* 逗比腳本先安裝libsodium
+> wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+
+### 搭建torjan的準備工作
 * 域名,需要先解析
 * 客戶端使用
 > ios使用小火箭
